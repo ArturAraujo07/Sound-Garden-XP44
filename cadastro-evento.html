@@ -60,10 +60,15 @@
                 </div>
                 <div>
                     <!-- - cadastro de evento (nome, atrações, descrição, horário, data, numero de ingressos) -->
-                    <form class="col-6" id="formulario">
+                    <form class="col-6">
                         <div class="mb-3">
                             <label for="nome" class="form-label">Nome</label>
                             <input type="text" class="form-control" id="nome" aria-describedby="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="banner" class="form-label">Banner</label>
+                            <input type="text" class="form-control" id="banner" aria-describedby="banner">
+                            <small>Insira o link da imagem</small>
                         </div>
                         <div class="mb-3">
                             <label for="atracoes" class="form-label">Atrações</label>
@@ -76,8 +81,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="data" class="form-label">Data</label>
-                            <input type="datetime" name="data" id="data" class="form-control"
-                                placeholder="00/00/00 00:00">
+                            <input type="date" name="data" id="data" class="form-control" placeholder="MM/DD/AAAA">
                         </div>
                         <div class="mb-3">
                             <label for="lotacao" class="form-label">Lotação (número de ingressos disponiveis)</label>

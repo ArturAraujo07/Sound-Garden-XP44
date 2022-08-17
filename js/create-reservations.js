@@ -39,7 +39,7 @@ form.onsubmit = async (event) => {
               },
               redirect: "follow"
         };
-        const responseTwo = await fetch(`${BASE_URL}/event/${paransId}/bookings`, options);
+        const responseTwo = await fetch(`${BASE_URL}/bookings`, options);
         const contentResponse = await responseTwo.json();
         console.log(contentResponse);
         alert("Reserva criada com sucesso!")

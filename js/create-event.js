@@ -1,4 +1,5 @@
-import { BASE_URL } from "./script.js"; // Importa o BASE_URL do script.js
+// import { BASE_URL } from "./script.js"; // Importa o BASE_URL do script.js
+const BASE_URL = 'https://xp41-soundgarden-api.herokuapp.com';
 
 const inputNome = document.querySelector("#nome");
 const inputBanner = document.querySelector("#banner");
