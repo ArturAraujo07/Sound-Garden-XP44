@@ -17,7 +17,7 @@ const showReservations = async () => {
         <th scope="row">${i}</th>
         <td>${content[i].owner_name}</td>
         <td>${content[i].owner_email}</td>
-        <td>${content[i].owner_tickets}</td>
+        <td>${content[i].number_tickets}</td>
         <td>
             <a href="excluir-reserva.html?id=${content[i]._id}" class="btn btn-danger">excluir</a>
         </td>
